@@ -66,3 +66,21 @@ Monte Carlo approximates the same risk-neutral model that Black–Scholes solves
 ## Limitations
 
 Educational project, not investment advice. It assumes European options, no dividends, constant interest rates and volatility, and no transaction costs. It does not capture volatility smiles, early exercise, market liquidity or changing economic conditions.
+
+## Visual overview
+
+The following graphs illustrate the pricing concepts using the example inputs in this project.
+
+### Call and put payoffs
+
+![Option payoff diagram](assets/option_payoff_diagram.svg)
+
+### Black–Scholes sensitivity to stock price
+
+![Black-Scholes price vs stock price](assets/black_scholes_vs_stock_price.svg)
+
+### Sensitivity to volatility
+
+![Option price vs volatility](assets/option_value_vs_volatility.svg)
+
+Run `python options_pricing.py` to generate further example charts in `output/`.
